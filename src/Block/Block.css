@@ -1,0 +1,22 @@
+.Block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.Block__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.Block__title {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: right;
+    flex: 1;
+}
+
+.Block__items {
+    flex: 1;
+}

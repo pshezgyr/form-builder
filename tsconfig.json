@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "types": ["node", "react", "react-dom"],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "traceResolution": false,
+        "lib": ["es6", "dom", "es2015"],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}
